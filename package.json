@@ -1,0 +1,29 @@
+{
+    "name": "rdf-raptor-parser",
+
+    "version": "0.1.1",
+
+    "scripts" : 
+    { 
+        "preinstall" : "node-waf configure && node-waf build", 
+        "preuninstall" : "rm -rf build/*"
+    },
+
+    "main" : "build/default/raptor_parser.node",
+    
+    "description": "node extension for the RDF Raptor parser library: <http://librdf.org/raptor/>",
+
+    "homepage": "https://github.com/antoniogarrote/rdf-raptor-node-js",
+
+    "author": 
+    { 
+        "name": "Antonio Garrote",
+        "email": "antoniogarrote@gmail.com" 
+    },
+
+    "repository": 
+    {
+        "type": "git",
+        "url": "https://github.com/antoniogarrote/rdf-raptor-node-js.git"
+    }
+}

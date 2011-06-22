@@ -4,6 +4,7 @@
 #include <unistd.h>
 #include <pthread.h>
 #include <queue>
+#include <string.h>
 #include <string>
 #include <raptor.h>
 
