@@ -32,7 +32,7 @@ Parsing a file:
     });     
 
     parser.addListener("finished_parsing", function(){
-      console.log("\nparsed " + counter + " triples parsed");
+      console.log(counter + " triples parsed");
     });
      
     parser.parseFile("./test/data/sp2b_10k.n3");
